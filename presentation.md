@@ -4,8 +4,6 @@
 
 Code you write to verify the behaviour of your application.
 
-There are teams that have dedicated QA teams that perform manual tests!
-
 ## Why do we write tests? --> to increase PRODUCTIVITY
 
 - Confidence
@@ -59,8 +57,8 @@ Testing Library encourages you to avoid testing implementation details like the 
 
 ## Why is testing implementation details bad?
 
-1. Can break when you refactor application code. False negatives
-2. May not fail when you break application code. False positives
+1. Can break when you refactor application code. `False negatives`
+2. May not fail when you break application code. `False positives`
 
 So we could rewrite all these tests with enzyme, limiting ourselves to APIs that are free of implementation details, but instead, I'm just going to use React Testing Library which will make it very difficult to include implementation details in my tests.
 

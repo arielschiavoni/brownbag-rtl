@@ -16,7 +16,9 @@ interface State {
 
 export class Accordion extends React.Component<Props, State> {
   state = { openIndex: 0 };
+
   setOpenIndex = (openIndex: number) => this.setState({ openIndex });
+
   render() {
     const { openIndex } = this.state;
 

@@ -73,8 +73,9 @@ There is a priority guide for recommendations on how to make use of semantic que
 - https://testing-playground.com/
 - https://github.com/nickcolley/jest-axe
 
-## More
+## References
 
+- Intro to React Testing [Jest and React Testing Library Tutorial] https://www.youtube.com/watch?v=ZmVBCpefQe8
 - https://kentcdodds.com/blog/testing-implementation-details
 - https://kentcdodds.com/blog/why-i-never-use-shallow-rendering
 - https://kentcdodds.com/blog/write-fewer-longer-tests

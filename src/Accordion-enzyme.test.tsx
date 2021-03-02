@@ -3,9 +3,9 @@ import React from "react";
 // then please read blog.kentcdodds.com/c08851a68bb7
 import Enzyme, { mount } from "enzyme";
 import EnzymeAdapter from "enzyme-adapter-react-16";
-// import { Accordion } from "./Accordion";
+import { Accordion } from "./Accordion";
 // import { Accordion } from "./Accordion-hooks";
-import { Accordion } from "./AccordionMulti";
+// import { Accordion } from "./AccordionMulti";
 
 // Setup enzyme's react adapter
 Enzyme.configure({ adapter: new EnzymeAdapter() });
